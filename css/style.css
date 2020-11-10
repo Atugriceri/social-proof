@@ -1,0 +1,136 @@
+* {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 45px;
+    color: hsl(300, 43%, 22%);
+}
+
+.col-sm-12 > p {
+    color: hsl(303, 10%, 53%);
+    margin-top: 20px;
+}
+
+.bg-ref {
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bg-ref:nth-child(2) {
+    margin-left: 20px;
+}
+
+.bg-ref:last-child {
+    margin-left: 40px;
+}
+
+.star {
+    padding-bottom: 3px;
+}
+
+.ref-text {
+    margin-top: 3px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.card-box {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.person-pic {
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+
+.name, .status {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-left: 3px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+.status {
+    color: hsl(333, 80%, 67%);
+}
+
+.col-sm-12 .comment-text {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    text-align: left;
+}
+
+.card-head {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.cards:nth-child(2) {
+    margin-top:20px;
+}
+
+.cards:last-child {
+    margin-top: 40px;
+}
+
+.attribution {
+    bottom: 0;
+    margin-top: 60px;
+}
+
+.cards {
+    align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+      background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .bg-ref {
+        text-align: center;
+    }
+
+    .bg-ref:nth-child(2) {
+        margin-left: 0;
+    }
+    
+    .bg-ref:last-child {
+        margin-left: 0;
+    }
+
+    .cards:nth-child(2) {
+        margin-top:0;
+    }
+    
+    .cards:last-child {
+        margin-top:0;
+    }
+  }
